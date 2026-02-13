@@ -2725,6 +2725,23 @@
             }
         }
     },
+    "lumenier": {
+        "name": "Lumenier",
+        "rx_dual": {
+            "sindra_gemx": {
+                "product_name": "Lumenier SINDRA Gemini Xrossband RX",
+                "lua_name": "SINDRA GEMX RX",
+                "layout_file": "Generic LR1121 True Diversity.json",
+                "overlay": {
+                    "power_values_dual": [-10, -6, -3, 10]
+                },
+                "upload_methods": ["uart", "wifi", "betaflight"],
+                "min_version": "3.4.0",
+                "platform": "esp32",
+                "firmware": "Unified_ESP32_LR1121_RX"
+            }
+        }
+    },
     "matek": {
         "name": "Matek Systems",
         "rx_2400": {
